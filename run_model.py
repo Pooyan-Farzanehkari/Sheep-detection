@@ -7,8 +7,7 @@ def main():
     # Load the model
     model = YOLO('best.pt')
     
-    # Use the first image in the directory
-    image_path = 'images'
+  
     
     # Run inference
     results = model(image_path)
