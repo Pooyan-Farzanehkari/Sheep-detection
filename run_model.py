@@ -12,6 +12,7 @@ def main():
     
     # Run inference
     results = model(image_path)
+    #test
     
     # Process and save results
     for result in results:
